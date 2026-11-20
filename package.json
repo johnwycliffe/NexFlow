@@ -1,0 +1,15 @@
+{
+  "name": "nexflow-erp-workspace",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "preview": "npm --prefix frontend run preview",
+    "frontend:dev": "npm --prefix frontend run dev",
+    "frontend:build": "npm --prefix frontend run build",
+    "backend:init": "python init_admin.py",
+    "backend:seed": "python seed_demo.py",
+    "backend:dev": "python run_backend.py"
+  }
+}
